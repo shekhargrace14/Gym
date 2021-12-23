@@ -1,0 +1,32 @@
+ /* 1024 */
+
+ @media only screen and (max-width:1024px){
+    /* why starts  */
+
+.why .card{
+    /* background-color: red; */
+    flex-wrap: wrap;
+}
+.why .card .box{
+    width: 50%;
+    /* background-color: green; */
+    
+}
+
+
+
+/* why ends  */
+
+.team .card{
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+
+
+}
+.team .boxx{
+    width: 45%;
+    margin: 2rem;
+    margin: 0 ;
+}
+
+}

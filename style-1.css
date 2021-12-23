@@ -1,0 +1,327 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+body{   
+    font-family: 'Poppins', sans-serif;
+}
+/* header starts here  */
+header{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(155, 37, 82, 0.7),rgba(155, 37, 82, 0.7)), url(./images/banner.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* header starts here  */
+
+header .navbar{
+    width: 95%;
+    margin: auto auto;
+    padding: 1.5rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: black; */
+    position: relative;
+
+}
+header .navbar .navbar-links {
+    width: 50%;
+}
+
+
+header .navbar .navbar-links ul{
+    display: flex;
+    justify-content: space-between;
+}
+header .navbar-links ul li{
+    text-decoration: none;
+    list-style: none;
+    margin: 1rem 1rem;
+
+}
+li:hover{
+    color: black;
+
+}
+header .navbar-links ul li a{
+    display: block;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    margin: 0 auto;
+}
+
+/* .toggle-button starts here  */
+
+.navbar .toggle-button{
+    position: absolute;
+    top: 2rem;
+    right: 3rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 2rem;
+    height: 1rem;
+    /* background-color: white; */
+
+}
+
+.navbar .toggle-button .bar{
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius:10px ;
+
+}
+/* .toggle-button ends here  */
+
+/* card starts here  */
+header .cards{
+    width: 100%;
+    margin: 5rem auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+header .cards .box{
+    width: 70%;
+    margin: 0 auto;
+}
+header .cards .box p{
+    margin: 0rem ;
+
+}
+
+header .cards .p1{
+    font-size: 2rem;
+    font-weight: 900;
+    margin: 0rem ;
+
+}
+header .cards .p2{
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 0rem ;
+}
+header .cards .p3{
+    font-size: 4rem;
+    font-weight: 600;
+    letter-spacing: 0.5rem;
+    margin: 0rem ;
+}
+header .cards .p4{
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+
+.btn-1{
+    width: 12rem;
+    height: 3rem;
+    border: .05rem solid white;
+    background-color: transparent;
+    font-size: 1rem;
+    margin: 2rem 0;
+}
+
+/* card starts here  */
+
+/* why starts  */
+.why{
+    background-image: linear-gradient(rgba(1, 29, 66, 0.7),rgba(1, 29, 66, 0.7)), url(./images/section-2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+    text-align: center;
+    padding: 5rem 10rem;
+}
+.why h2{
+    font-size: 2rem ;
+    margin: 3rem 0rem;
+
+}
+
+.why .card{
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem 0;
+}
+.why .card .box{
+    width: 20%;
+}
+
+.why .card .box h3{
+    font-size: 1.3rem;
+    margin-bottom: .5rem;
+}
+.why .card .box {
+    font-size: 1rem;
+    margin-bottom: .5rem;
+}
+/* why ends  */
+
+/* mid starts here  */
+.mid{
+    background-image: linear-gradient(rgba(155, 37, 82, 0.7),rgba(155, 37, 82, 0.7)), url(./images/mid.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 5rem 0;
+}
+.mid-box{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.mid h2{
+    font-size: 2rem ;
+    margin-bottom: 3rem;
+
+}
+.mid p{
+    font-size: 1rem;
+}
+/* mid ends here  */
+
+.team{
+    background-image: linear-gradient(rgba(1, 29, 66, 0.7),rgba(1, 29, 66, 0.7)), url(./images/team.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+    text-align: center;
+    padding: 5rem 10rem;
+    /* height: 100vh; */
+    padding-bottom: 5rem;
+}
+.team h2{
+    font-size: 2rem ;
+    margin-bottom: 3rem;
+}
+.team .card{
+    display: flex;
+    justify-content: space-between;
+}
+
+.team  .boxx{
+    width: 30%;
+    margin: 0 auto;
+}
+.team  .boxx h3{
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+.team .boxx .img-box{
+    width: 100%;
+
+} 
+.team  .boxx img{
+    width: 100%;
+    border-radius: 5%;
+
+}
+
+.team .social{
+    background-color: white;
+    width: 60%;
+    height: 3rem;
+    position: relative;
+    bottom: 2.2rem;
+    border-radius: 3rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 1rem;
+    
+}
+.team .social .fab{
+    color: red;
+    font-size: 1.5rem;
+    margin: .8rem .5rem;
+}
+
+/* contact starts here */
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color:  #27223f;
+
+}
+.contact .img-box{
+    width: 50%;
+}
+.contact .img-box img{
+    width: 100%;
+}
+.contact .right{
+    margin: 2rem 1rem;
+    width: 45%;
+    background-color: #27223f;
+
+
+}
+
+.contact .right-box h2{
+    margin: 2rem 0rem;
+    font-size: 2rem;
+}
+
+.contact  .right .form{
+    width: 80%;
+    min-height: 10vh;
+    margin: .8rem auto ;
+    color: black;
+    font-size: 1rem;
+}
+
+
+
+
+/* contact ends here */
+
+/* footer starts here  */
+footer{
+    background-color: #252233;
+}
+.footer-box{
+    /* background-color: #252233; */
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    margin: 0 auto;
+}
+footer .boxx {
+    width: 20%;
+    text-align: center;
+    margin: 2rem 0;
+}
+footer .boxx span{
+    font-size: 2rem;
+    width: 100%;
+    margin: 0 auto;
+}
+footer .boxx span .fas{
+    font-size: 2rem;
+    width: 100%;
+}
+footer .boxx h3{
+    font-size: 1rem;
+    margin: 0 auto;
+    width: 100%;
+    color: b;
+}
+/* footer ends here  */
+.footer-line{
+    text-align: center;
+}
+.footer-line p{
+    color: black;
+    margin: 1.3rem 0;
+    text-align: center;
+
+}

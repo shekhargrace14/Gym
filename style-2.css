@@ -1,0 +1,155 @@
+@media only screen and (max-width:769px){
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+
+header .navbar .brand-title{
+    font-size: .7rem;
+
+    
+}
+
+header .navbar-links{
+    /* display: none; */
+    /* flex-direction: column; */
+    /* align-items: flex-start; */
+    width: 100%;
+}
+.navbar-links ul{
+    width: 100%;
+    flex-direction: column;
+}
+.navbar-links ul li{
+    text-align: center;
+}
+.navbar-links ul li a{
+    padding: 0rem 0rem;
+}
+/* .toggle-button starts here  */
+
+.navbar .toggle-button{
+    display: flex;
+}
+
+/* .toggle-button ends here  */
+
+
+/* cards starts here  */
+header .cards{
+    width: 95%;
+    margin: 0 auto;
+    
+}
+header .cards .box{
+    width: 90%;
+    margin: 0 auto;
+}
+
+header .cards .p1{
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin: 0rem ;
+
+}   
+header .cards .p2{
+    font-size: 2rem;
+    font-weight: 800;
+    margin: 0rem ;
+}
+header .cards .p3{
+    font-size: 2.5rem;
+    font-weight: 900;
+    letter-spacing: 0.5rem;
+    margin: 0rem ;
+}
+header .cards .p4{
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+
+/* cards ends here  */
+
+/* why starts here  */
+.why{
+    padding: 3rem 2rem;
+}
+.why h2{
+    font-size: 2rem ;
+    margin: 1rem 0rem;
+}
+.why .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.why .card .box{
+    width: 50%;
+    margin: 1rem 0;
+    flex-direction: column;
+}
+/* why ends here  */
+/* mid starts here  */
+.mid{
+    padding: 5rem 1rem;
+}
+.mid-box{
+    width: 90%;
+    margin: 0 auto;
+}
+/* mid ends here  */
+/* team starts here  */
+.team {
+    width: 100%;
+    background-color: red;
+    padding: 5rem 1rem;
+}
+.team .card{
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+
+
+}
+.team .boxx{
+    width: 45%;
+    margin: 2rem;
+    margin: 0 ;
+}
+/* team ends here  */
+/* contact starts here */
+.contact{
+    flex-direction: column;
+}
+.contact .img-box{
+    width: 100%;
+}
+
+.contact .right      {
+    width: 100%;
+    margin: 0 5rem;
+}
+.contact form{
+    width: 100%;
+
+}
+/* contact ends here */
+/* footer starts here */
+
+footer .footer-box{
+    flex-direction: column;
+}
+footer .footer-box .boxx{
+    width: 100%;
+    
+}
+/* footer ends here */
+
+}
