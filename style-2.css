@@ -17,11 +17,8 @@ header .navbar .brand-title{
     
 }
 
-header .navbar-links{
-    /* display: none; */
-    /* flex-direction: column; */
-    /* align-items: flex-start; */
-    width: 100%;
+.navbar-links{
+    display: none;
 }
 .navbar-links ul{
     width: 100%;
@@ -33,6 +30,11 @@ header .navbar-links{
 .navbar-links ul li a{
     padding: 0rem 0rem;
 }
+
+.navbar-links.active{
+    display: flex;
+}
+
 /* .toggle-button starts here  */
 
 .navbar .toggle-button{

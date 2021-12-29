@@ -43,7 +43,7 @@ header .navbar-links ul li{
     margin: 1rem 1rem;
 
 }
-li:hover{
+.navbar-links li:hover{
     color: black;
 
 }
