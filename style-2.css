@@ -129,6 +129,7 @@ header .cards .p4{
 /* contact starts here */
 .contact{
     flex-direction: column;
+    text-align: center;
 }
 .contact .img-box{
     width: 100%;
