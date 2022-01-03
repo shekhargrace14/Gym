@@ -136,7 +136,7 @@ header .cards .p4{
 
 .contact .right      {
     width: 100%;
-    margin: 0 5rem;
+    /* margin: 0 0rem; */
 }
 .contact form{
     width: 100%;
